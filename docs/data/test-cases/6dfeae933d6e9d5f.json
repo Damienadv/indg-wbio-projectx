@@ -1,0 +1,58 @@
+{
+  "uid" : "6dfeae933d6e9d5f",
+  "name" : "custom commands",
+  "fullName" : "User.custom commands",
+  "historyId" : "c754599ccb683ef3f2f7aa49b04dd364",
+  "time" : {
+    "start" : 1604653252456,
+    "stop" : 1604653256335,
+    "duration" : 3879
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User"
+  }, {
+    "name" : "testClass",
+    "value" : "User"
+  }, {
+    "name" : "testMethod",
+    "value" : "custom commands"
+  }, {
+    "name" : "package",
+    "value" : "User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-86.0.4240.75"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6dfeae933d6e9d5f.json",
+  "parameterValues" : [ "chrome-86.0.4240.75" ]
+}

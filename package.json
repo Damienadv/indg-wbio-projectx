@@ -1,0 +1,39 @@
+{
+  "name": "hb-wdio-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio ./entrypoint.conf.js",
+    "repl": "wdio repl chrome",
+    "report": "allure generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.0.3",
+    "@types/tough-cookie": "^4.0.0",
+    "@wdio/cli": "^6.7.2",
+    "@wdio/local-runner": "^6.7.2",
+    "@wdio/mocha-framework": "^6.7.0",
+    "@wdio/spec-reporter": "^6.7.0",
+    "@wdio/sync": "^6.7.2",
+    "@wdio/allure-reporter": "^6.7.2",
+    "chai": "^4.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5",
+    "allure-commandline": "^2.13.0",
+    "tough-cookie": "^4.0.0",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
+    "faker": "5.1.0",
+    "cheerio": "1.0.0-rc.3"
+  }
+}
